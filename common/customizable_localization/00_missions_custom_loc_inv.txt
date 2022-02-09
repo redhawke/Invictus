@@ -1,4 +1,4 @@
-﻿mauryan_collapse_prevention_task_2_loc = {
+mauryan_collapse_prevention_task_2_loc = {
 	type = country
 
 	text = {

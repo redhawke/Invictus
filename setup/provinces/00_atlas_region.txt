@@ -1,4 +1,4 @@
-﻿#Visum Montis
+#Visum Montis
 3081=
 {
 	barbarian_power=0

@@ -523,14 +523,8 @@
 				name = "suebi_integrate_allies"
 				duration = -1
 			}
-            random_country_culture = {
-                limit = { THIS.culture = culture:ubian }
-                ROOT = { integrate_country_culture = PREV }
-            }
-            random_country_culture = {
-                limit = { THIS.culture = culture:treverian }
-                ROOT = { integrate_country_culture = PREV }
-            }
+			integrate_country_culture = culture:ubian 
+			integrate_country_culture = culture:treverian
 			every_subject = {
 					limit = {
 						OR = {

@@ -335,7 +335,7 @@
 	culture="elamite"
 	province_rank="settlement"
 	religion="mesopotamian_religion"
-	terrain="flood_plain"
+	terrain="marsh"
 	trade_goods="vegetables"
 	citizen=
 	{
@@ -368,7 +368,7 @@
 	culture="elamite"
 	province_rank="settlement"
 	religion="zoroaster"
-	terrain="flood_plain"
+	terrain="marsh"
 	trade_goods="dates"
 	citizen=
 	{
