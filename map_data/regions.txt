@@ -391,7 +391,7 @@ aparanta_region = { #8
 	}
 }
 
-karnata_region = { #7
+karnata_region = { #6
 	areas = {
 		vanavasi_area
 		north_satiyaputa_area
@@ -399,7 +399,6 @@ karnata_region = { #7
 		keralaputa_area
 		north_mahishamandala_area
 		south_mahishamandala_area
-		maldives_area
 	}
 }
 
@@ -839,7 +838,7 @@ armorica_region = {			#7 areas
 	}
 }
 
-mauretainia_region = {	#7 areas
+mauretainia_region = {	#6 areas!
 	areas = {
 		rutubis_area
 		tadla_area
@@ -847,7 +846,6 @@ mauretainia_region = {	#7 areas
 		mauretania_tingitana_meridionalis_area
 		mauretania_caesariensis_occidentalis_area
 		mauretania_caesariensis_centralis_area
-		rif_area
 	}
 }
 
@@ -1132,20 +1130,5 @@ fezzan_region = {
 		girgiri_area
 		soffegin_area
 		phazania_area
-	}
-}
-
-atlas_region = {
-	areas = {
-		souss_area
-		marrakesh_area
-		upper_draa_area
-		upper_moulouya_area
-		lower_moulouya_area
-		sijilmasa_area
-		figuig_area
-		saharan_atlas_area
-		jedi_area
-		chefia_area
 	}
 }

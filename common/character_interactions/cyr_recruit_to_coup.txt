@@ -7,13 +7,7 @@
 	sound = "event:/SFX/UI/Character/Unique/sfx_ui_character_befriend"
 	
 	potential_trigger = {
-		##################
-		###NOT POSSIBLE###
-		##################
-		scope:actor = {
-			treasury >= 1000000
-			num_of_ships >= 100000
-		}
+		actor = c:CYR
 		hidden:scope:target = {
 			is_mercenary = no
 			employer = {

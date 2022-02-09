@@ -620,7 +620,7 @@
 			current_ruler = { 
 				popularity >= 80
 			}
-			war = no
+			at_peace = yes
 		}
 
 

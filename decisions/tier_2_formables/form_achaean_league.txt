@@ -77,13 +77,11 @@
 			}
 			add_2_free_province_investments = yes
 			add_political_influence = -150
-			###########
-			##Removed events until Hannibal fixes and locs them
-#			trigger_event = { id = dhe_achaean_league.1	}	### Sends out league invites
-#			trigger_event = { 		### Gives Gold or Manpower, Gives country modifiers
-#				id = dhe_achaean_league.3
-#				days = 60
-#			}
+			trigger_event = { id = dhe_achaean_league.1	}	### Sends out league invites
+			trigger_event = { 		### Gives Gold or Manpower, Gives country modifiers
+				id = dhe_achaean_league.3
+				days = 60
+			}
 			custom_tooltip = "form_achaean_league_claims_tooltip"	
 			hidden_effect = {
 				area:achaea_area = {
@@ -92,12 +90,12 @@
 				area:arcadia_area = {
 					add_provincial_claim_effect = yes
 				}
-#				if = {
-#					limit = {
-#						current_date >= 500.1.1
-#					}
-#					trigger_event = { id = dhe_achaean_league.4	}	### Aratus of Sicyon event
-#				}
+				trigger_if = {
+					limit = {
+						current_date >= 500.1.1
+					}
+					trigger_event = { id = dhe_achaean_league.4	}	### Aratus of Sicyon event
+				}
 			}
 		}
 		

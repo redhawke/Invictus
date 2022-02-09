@@ -3859,6 +3859,17 @@
 	terrain="impassable_terrain"
 	trade_goods=""
 }
+#Palaiogonoi
+5314=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lankan"
+	province_rank=""
+	religion="hindu"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
 #Baglana
 5315=
 {
@@ -4431,15 +4442,15 @@
 	terrain="impassable_terrain"
 	trade_goods=""
 }
-#Tritonis
+#Eastern Musalamia
 5367=
 {
 	barbarian_power=0
 	civilization_value=0
-	culture=""
+	culture="gaetulian"
 	province_rank=""
-	religion=""
-	terrain="ocean"
+	religion="berber_religion"
+	terrain="impassable_terrain"
 	trade_goods=""
 }
 #
@@ -9544,27 +9555,5 @@
 	province_rank=""
 	religion="berber_religion"
 	terrain="impassable_terrain"
-	trade_goods=""
-}
-#Salinae Tubunenses
-8388=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-#Bazensis
-8394=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
 	trade_goods=""
 }

@@ -436,7 +436,7 @@
 	citizen=
 	{
 		amount=1
-		religion="roman_pantheon"
+		religion="hellenic"
 		culture="macedonian"
 	}
 	freemen=
@@ -451,7 +451,7 @@
 	freemen=
 	{
 		amount=1
-		religion="roman_pantheon"
+		religion="hellenic"
 		culture="macedonian"
 	}
 	tribesmen=
