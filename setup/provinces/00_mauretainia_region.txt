@@ -44,7 +44,7 @@
 		amount=2
 	}
 }
-#Lakish
+#Lakish/Lixus
 3062=
 {
 	barbarian_power=0
@@ -54,13 +54,18 @@
 	religion="berber_religion"
 	terrain="forest"
 	trade_goods="stone"
+	citizen=
+	{
+		amount=2
+		religion="carthaginian_pantheon"
+	}
 	freemen=
 	{
 		amount=1
 	}
 	freemen=
 	{
-		amount=1
+		amount=5
 		religion="carthaginian_pantheon"
 	}
 	slaves=
@@ -87,9 +92,14 @@
 	religion="berber_religion"
 	terrain="forest"
 	trade_goods="fish"
+	citizen=
+	{
+		amount=3
+		religion="carthaginian_pantheon"
+	}
 	freemen=
 	{
-		amount=1
+		amount=4
 		religion="carthaginian_pantheon"
 	}
 	slaves=
@@ -101,7 +111,7 @@
 		amount=1
 	}
 }
-#Arzeila
+#Arzeila/Kuass
 3064=
 {
 	barbarian_power=0
@@ -113,15 +123,20 @@
 	trade_goods="fish"
 	citizen=
 	{
-		amount=1
+		amount=3
 	}
 	freemen=
 	{
-		amount=1
+		amount=5
 	}
 	slaves=
 	{
-		amount=1
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="socossian"
 	}
 }
 #Frigida
@@ -277,7 +292,7 @@
 	trade_goods="cloth"
 	freemen=
 	{
-		amount=1
+		amount=4
 	}
 	slaves=
 	{
@@ -516,19 +531,19 @@
 	trade_goods="wood"
 	citizen=
 	{
-		amount=1
+		amount=4
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 	}
 	freemen=
 	{
-		amount=1
+		amount=6
 		culture="carthaginian"
 		religion="carthaginian_pantheon"
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=3
 		religion="carthaginian_pantheon"
 	}
 }

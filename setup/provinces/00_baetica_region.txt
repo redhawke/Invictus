@@ -500,7 +500,7 @@
 	trade_goods="spices"
 	nobles=
 	{
-		amount=2
+		amount=3
 	}
 	citizen=
 	{
@@ -508,7 +508,7 @@
 	}
 	freemen=
 	{
-		amount=6
+		amount=7
 	}
 	tribesmen=
 	{
@@ -549,15 +549,20 @@
 	citizen=
 	{
 		amount=2
-		religion="animism"
 	}
 	freemen=
 	{
-		amount=5
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+		religion="animism"
 	}
 	tribesmen=
 	{
 		amount=2
+		religion="animism"
 	}
 	tribesmen=
 	{
@@ -600,9 +605,13 @@
 	religion="carthaginian_pantheon"
 	terrain="hills"
 	trade_goods="dye"
+	citizen=
+	{
+		amount=2
+	}
 	freemen=
 	{
-		amount=1
+		amount=4
 	}
 	slaves=
 	{
