@@ -2604,21 +2604,6 @@ family={
 			culture=cretan
 			owner=ARS
 		}
-		#Gadir
-		150 = {
-			key = "Balbid"
-			prestige=300
-			culture=carthaginian
-			owner=GAD
-			color = 0
-		}
-		151 = {
-			key = "Chalid"
-			prestige=300
-			culture=carthaginian
-			owner=GAD
-			color = 1
-		}
 		#Chera Dynasty
 		250={
 			key = "Chera"
@@ -2784,7 +2769,6 @@ diplomacy = {
 	dependency = { first = CAR second = SIN subject_type = client_state } # Also intentional, same as above
 	dependency = { first = CAR second = IBA subject_type = feudatory }
 	dependency = { first = CAR second = GIN subject_type = vassal_tribe } # New
-	dependency = { first = CAR second = THA subject_type = feudatory }
 	
 	#Massylia
 	#alliance = { first = MSY second = MSL }
@@ -2927,15 +2911,23 @@ diplomacy = {
 		member = TIE
 	}
 	
+	#Mauretania
+	dependency = { first = MAU  second = SOC subject_type = tributary } #Socosia
+	
 	#Astan
 	dependency = { first = ASA second = LSC subject_type = tributary }
 	
-	#Gadiran Leage
+	#Asta, Gadir and Onuba
 	defensive_league = {
+		member = ASA
 		member = GAD
-		member = LIX
-		member = KUS
-		member = RSS
+		member = ONU
+	}
+	
+	#Carmoia and Lacinippo
+	defensive_league = {
+		member = CRM
+		member = CIP
 	}
 	
 	#Germania
@@ -3401,8 +3393,7 @@ provinces = { #Any entry must contain a comment with city name.
 		library_building = 1
 	}
 	3357 = { # Barce
-		aqueduct_building = 1
-		court_building = 1
+		barracks_building = 1
 		modifier = { modifier = cyr_libyan_influences always = yes }
 	}
 	3350 = { # Euesperides
@@ -3610,6 +3601,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	1029 = { #arse/saguntum
+		fortress_building = 1
 		commerce_building = 1
 	}
 	
@@ -3618,14 +3610,29 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	1339 = { #onuba
+		fortress_building = 1
 		commerce_building = 1
 	}
 	
 	1342 = { #asta regia
-		commerce_building = 1
+		fortress_building = 1
+		commerce_building = 2
+	}
+	
+	1346 = { #asido/lascuta
+		fortress_building = 1 
 	}
 	
 	1348 = { #carteia
+		fortress_building = 1 
+	}
+	
+	1350 = { #acinipo
+		fortress_building = 1
+		commerce_building = 1
+	}
+	
+	1356 = { #orippo
 		fortress_building = 1 
 	}
 	
@@ -3634,10 +3641,17 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	1374 = { #carmo
+		fortress_building = 1
+		commerce_building = 1
+	}
+	
+	1377 = { #corduba
+		fortress_building = 1
 		commerce_building = 1
 	}
 	
 	1464 = { #ebusus/ibasim
+		fortress_building = 1
 		commerce_building = 1
 	}
 	
@@ -5050,9 +5064,6 @@ provinces = { #Any entry must contain a comment with city name.
 	5293 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	5321 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
 	5334 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -5074,22 +5085,13 @@ provinces = { #Any entry must contain a comment with city name.
 	5355 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	5366 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
 	5947 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	5948 = {
+	5987 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 	5989 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5991 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5992 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 	5993 = {
@@ -5119,9 +5121,6 @@ provinces = { #Any entry must contain a comment with city name.
 	8119 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
-	8240 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
 	
 	
 	
@@ -5133,9 +5132,6 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 	5986 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5987 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 	
@@ -6646,7 +6642,7 @@ country = {
 		# Misc
 	
 		UTC = { #Utica
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
@@ -6666,7 +6662,7 @@ country = {
 		}
 		
 		TPS = { #Thapsus
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
@@ -6686,7 +6682,7 @@ country = {
 		}
 	
 		LPT = { #Leptis Minor
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			capital = 3277 #Leptis Minor
@@ -6706,7 +6702,7 @@ country = {
 		}
 		
 		HDR = { #Hadrametum
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			capital = 3276 #Hadrametum
@@ -6726,7 +6722,7 @@ country = {
 		}
 		
 		ACO = { #Achola
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			capital = 3280 #Achola
@@ -6789,7 +6785,7 @@ country = {
 		}
 		
 		IOL = { #Iol
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
@@ -6810,7 +6806,7 @@ country = {
 		
 		
 		KUA = { #Kerkuane
-			government = plutocratic_republic
+			government = oligarchic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
@@ -6868,33 +6864,47 @@ country = {
 				3245 3244 3249 3270 3241 3240 3242 3243 3272 3274 3275
 				3279 3286 3282 3281 3283 3287 3285 1470
 				3483 3481 3484 3485 3490 3482 3492
-				3061 3085 3262 3230 3229 3264 3265 3267 3271
+				3061 3085 3064 3062 3065 3066 3063 3068 3080 3262 3230 3229 3264 3265 3267 3271
 				3225 3226 3227 3126 3123 3122 3121 3144
 				3161 3160 3150 3145 3238 3212 3273 3236 3200 3239 3211
 				3124
 				3486 3504 3497 3494 3493 3108 #removed and given to Nuragic: 3505 3506 3499 3500 3503 3488 3487 3489
 				1471 # Melita (Malta)
 				1362 1366 1367 1283 1282 1278 1276 1284 #Malaca
-				1347 #Alu
+				1347 1348 #Carteia
 				3092 3095 3120 6301 6475 6478 6490 6491 #More North African Ports
-				7841 7842 7843    
+				7841 7842 7843
+				8258 8267 #new	
 			}
 			
 			treasures = { 45 }
 		}
 		
 		MAU = {
-			government = tribal_kingdom
+            government = tribal_kingdom
             primary_culture = socossian
             religion = berber_religion
             centralization = 15
             tribal_currency_laws = barter_economy_law
             tribal_authority_laws = absolute_authority
-            capital = 3067
+			capital = 3067
 
 			own_control_core = 	{
-				3067 3078 3077 3076 3074 3071 3069 3073 3075 3072 3079 3081 3082
+				3067 3078 3077 3076 3074 3070 3071 3069 3073 3075 3072 3079 3081 3082
 				6485 6476 6486
+				8316 8317 8318 8319 8320 8321 8322 8323 8395 8396 8397 8398 #new
+			}
+			
+		}
+		
+		SOC = { #Mauretanian Tributary
+			government = tribal_federation
+			primary_culture = socossian
+			religion = berber_religion
+			capital = 8346
+
+			own_control_core = 	{
+				8346 8347 8348 8349 8350 8351 8352 8353 8354 8355
 			}
 			
 		}
@@ -6904,7 +6914,7 @@ country = {
 			primary_culture = massaesylian
 			religion = berber_religion
 			capital = 3086
-			centralization=10
+			centralization=15
 
 			own_control_core = 	{
 				3083 3084 3087 3089 3090 3088 3091 3094 3093 3096 3097
@@ -6921,7 +6931,7 @@ country = {
 			primary_culture = massylian
 			religion = berber_religion
 			capital = 3163
-			centralization=10
+			centralization=15
 			
 			own_control_core = 	{
 				3146 3147 3148 3149 3151 3156 3157 3158 3159 3162 3163 3164 3165 3166 3167
@@ -6937,7 +6947,7 @@ country = {
 			primary_culture = massylian
 			religion = berber_religion
 			capital = 3209
-			centralization=10
+			centralization=15
 
 			own_control_core = 	{
 				3208 3205 3198 3209 3246 3210 3197 3247 3214 3237 3216 3235 3248 3201 3199 3194 3195
@@ -7161,7 +7171,7 @@ country = {
 		}
 		
 		PHZ = { 
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = phazani
 			religion = berber_religion
 			
@@ -7181,7 +7191,7 @@ country = {
 		}
 		
 		GIN = { #Carthaginian Tributary
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = lotophagoi
 			religion = berber_religion
 			
@@ -7247,10 +7257,10 @@ country = {
 				8173 8174 8175 8178 8179 8181 8182 8184 #murzuq
 				8189 8190 8191 8192 8193 8194 #himka
 			}
-		} 
+		}
 		
 		ATO = { 
-			government = tribal_federation
+            government = tribal_federation
             primary_culture = autolalean
             religion = berber_religion
             centralization = -30
@@ -7258,10 +7268,12 @@ country = {
             tribal_authority_laws = right_of_might_law_tribal
             tribal_authority_laws = follow_the_strong_law
 			
-			capital = 6492
+			capital = 8273
 			
 			own_control_core = { 
 				6477 6479 6480 6481 6492 7221
+				8268 8269 8270 8271 8272 8273 8274 8275 8276 8277 8280 #marrakesh
+				
 			}
 		}
 		
@@ -7274,6 +7286,98 @@ country = {
 			
 			own_control_core = { 
 				6302 6470 6471 6472 6473 6474 6484 6487 6489 #tadla
+				
+			}
+		}
+		
+		CET = { 
+			government = tribal_chiefdom
+			primary_culture = cetianian
+			religion = berber_religion
+			
+			capital = 8310
+			
+			own_control_core = { 
+				8306 8307 8308 8309 8310 8311 8312 8313 8314 8315
+				
+			}
+		}
+		
+		ABA = { 
+			government = tribal_chiefdom
+			primary_culture = abannaean
+			religion = berber_religion
+			
+			capital = 8377
+			
+			own_control_core = { 
+				 8376 8377 8378 8379 8380 8381 8382 8383 8384 8385 8386 #Jedi
+				
+			}
+		}
+		
+		CPA = { 
+			government = tribal_chiefdom
+			primary_culture = capariensian
+			religion = berber_religion
+			
+			capital = 8374
+			
+			own_control_core = { 
+				8366 8367 8368 8369 8370 8371 8372 8373 8374 8375 #SaharanAtlas
+				
+			}
+		}
+		
+		PER = { 
+			government = tribal_chiefdom
+			primary_culture = perorsian
+			religion = berber_religion
+			
+			capital = 8291
+			
+			own_control_core = { 
+				8291 8292 8293 8294 8295 8296 8297 8298 8300 8301 8302 #upper draa
+				
+			}
+		}
+		
+		LXT = { 
+			government = tribal_chiefdom
+			primary_culture = lixitoi
+			religion = berber_religion
+			
+			capital = 8260
+			
+			own_control_core = { 
+				8259 8260 8261 8262 8263 8264 8265 8266 8303 8304 8305 #souss
+				
+			}
+		}
+		
+		CII = { 
+			government = tribal_chiefdom
+			primary_culture = canarian
+			religion = berber_religion
+			
+			capital = 8331
+			
+			own_control_core = { 
+				8326 8327 8328 8329 8330 8331 8332 8333 8334
+				
+			}
+		}
+		
+		DPH = { 
+			government = tribal_chiefdom
+			primary_culture = daphnitaean
+			religion = berber_religion
+			
+			capital = 8360
+			
+			own_control_core = { 
+				8356 8357 8358 8359 8360 8361 8362 8363 8364 8365 8389 #figuig
+				
 			}
 		}
 		
@@ -8272,8 +8376,6 @@ country = {
 		}
 		
 		GAD = {
-			family = 150
-			family = 151
 			government = punic_republic
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
@@ -8287,17 +8389,8 @@ country = {
 
 			capital = 1344
 
-			pantheon = {
-			
-			{ deity = 403 }
-			{ deity = 401 }
-			{ deity = 433 }
-			{ deity = 404 }
-			
-			}
-			
 			own_control_core = 	{
-				1344 1345 1348
+				1344 1345
 			}
 			
 		}
@@ -9619,7 +9712,7 @@ country = {
 			capital = 1337 
 
 			own_control_core = 	{
-				1334 1337 1333 1336 1330 1324
+				1337 1334 1333 1336 1330 1324
 			}
 		}
 		
@@ -12611,7 +12704,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = pasargadi
 			religion = zoroaster
-			diplomatic_stance=diplomatic_stance
+			diplomatic_stance = appeasement_stance
 			capital = 4799 
 			
 			technology={
@@ -13102,7 +13195,7 @@ country = {
 			}
 		
 			own_control_core = 	{ 
-				6952 6953 6966 6977 6980 6981
+				6951 6952 6953 6965 6966 6977 6980 6981 8287 8290
 			}
 			treasures = { 869 }
 		}
@@ -13121,7 +13214,7 @@ country = {
 			}
 		
 			own_control_core = 	{ 
-				6951 6965 6971 6982
+				5314 6971 6982 8284 8288 8289
 			}
 			treasures = { 870 }
 		}
@@ -13474,10 +13567,10 @@ country = {
 			capital = 7081
 			
 			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			treasures = { 181 881}
@@ -13520,7 +13613,7 @@ country = {
 		
 			own_control_core = 	{ 
 				6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 # north tambapamni
-				6970 # south tambapamni
+				6970 8285 8286 # south tambapamni
 			}
 		}
 		
@@ -13813,6 +13906,19 @@ country = {
 				{ deity = 1111 }
 			}
 			treasures = { 874 877 883 }
+		}
+		
+		MDP = {
+			government = despotic_monarchy
+			primary_culture = sindhi
+			religion = buddhism
+			
+						capital = 8342
+			
+			own_control_core = {
+				8281 8282 8283 8338 8342 8343 8387
+			
+				}
 		}
 		
 		GED = { #Satrapy of Seleukid
@@ -16223,56 +16329,6 @@ country = {
 
 			own_control_core = 	{
 				1346
-			}
-		}
-		
-		# New Mauretanian/Punic Tags
-		
-		LIX = {
-			government = plutocratic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
-			
-			capital = 3062
-			
-			own_control_core = {
-				3062 3065
-			}
-		}
-		
-		KUS = {
-			government = plutocratic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
-			
-			capital = 3064
-			
-			own_control_core = {
-				3064
-			}
-		}
-		
-		RSS = {
-			government = plutocratic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
-			
-			capital = 3080
-			
-			own_control_core = {
-				3080
-			}
-		}
-		
-		THA = {
-			government = plutocratic_republic
-			primary_culture = carthaginian
-			religion = carthaginian_pantheon
-			
-			capital = 3063
-			
-			own_control_core = {
-				3063 3066 3068 3070
 			}
 		}
 		

@@ -202,11 +202,11 @@ cyrene_1_academies_task_10_buildings_current = {
 			limit = {
 				owner = root
 				OR = {
-				num_of_latifundia_building >= 1
+				num_of_workshop_building >= 1
 				num_of_slave_mine_building >= 1
 				}
 			}
-			add = num_of_latifundia_building
+			add = num_of_workshop_building
 			add = num_of_slave_mine_building
 		}
 	}
@@ -215,11 +215,11 @@ cyrene_1_academies_task_10_buildings_current = {
 			limit = {
 				owner = root
 				OR = {
-				num_of_latifundia_building >= 1
+				num_of_workshop_building >= 1
 				num_of_slave_mine_building >= 1
 				}
 			}
-			add = num_of_latifundia_building
+			add = num_of_workshop_building
 			add = num_of_slave_mine_building
 		}
 	}
@@ -227,4 +227,10 @@ cyrene_1_academies_task_10_buildings_current = {
 }
 cyrene_1_academies_task_10_buildings_total = {
 	value = 20
+}
+cyr_intoegypt_south_province_comparison_svalue = {
+	value = var:cyr_province_egy_south_count
+}
+cyr_intoegypt_north_province_comparison_svalue = {
+	value = var:cyr_province_egy_north_count
 }
