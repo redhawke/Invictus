@@ -1240,22 +1240,6 @@ dumnonian_heritage = {
 #	}
 #}
 
-
-sarmatian_heritage = {
-	modifier = {
-		#good
-		heavy_cavalry_offensive = 0.05
-		agressive_expansion_impact = -0.05
-		
-		#bad
-		global_monthly_food_modifier = -0.1
-	}
-	
-	trigger = {
-		tag = SRM					
-	}
-}
-
 dobunnian_heritage = {
 	modifier = {
 		#good
@@ -3171,6 +3155,26 @@ numantian_heritage = {
 	}
 	trigger = {
 		tag = AVC
+	}
+}
+	
+deccan_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_modifier = 0.1
+		land_morale_recovery = 0.05
+		#bad
+		global_commerce_modifier = -0.1
+	}
+	trigger = { # may want to rework map in future
+				# divide Karnata & Dravidia into West Ghats, Deccan, East Ghats
+		OR = {
+			tag = ASM
+			tag = KUN
+			tag = MSH
+			tag = ADG
+			tag = KSR
+		}
 	}
 }
 
