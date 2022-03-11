@@ -2170,7 +2170,7 @@ Mauretanian_heritage = {
 	modifier = {
 		#good
 		manpower_recovery_speed = 0.1
-		experience_decay= -0.1
+		experience_decay= -0.01
 
 		#bad
 		marsh_combat_bonus = -0.1
@@ -2702,11 +2702,11 @@ Tripolitanian_heritage = {
 Dodekaschoinos_heritage = {
 	modifier = {
 		#good
-		omen_power = 0.3
-		monthly_political_influence_modifier = 0.08
+		omen_power = 0.15
+		monthly_political_influence_modifier = 0.05
 
 		#bad
-		global_tax_modifier = -0.3
+		global_tax_modifier = -0.1
 	}
 
 	trigger = {
