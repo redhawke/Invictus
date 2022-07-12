@@ -6363,6 +6363,7 @@ country = {
 			centralization=10
 			diplomatic_stance=trading_stance
 			capital = 121
+			centralization=60
 			
 			poptype_rights = {
 				{
@@ -6481,7 +6482,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 			
 			poptype_rights = { 
 				{
@@ -6508,7 +6509,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 
 			capital = 3571
 		
@@ -6521,7 +6522,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 
 			capital = 3584
 		
@@ -6534,7 +6535,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 
 			capital = 146
 		
@@ -6547,7 +6548,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = lepontic
 			religion = druidism
-			centralization=10
+			centralization=60
 
 			capital = 142 #Ravenna
 			
@@ -6567,6 +6568,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = venetic
 			religion = roman_pantheon
+			centralization=60
 
 			capital = 3598
 		
@@ -9254,7 +9256,7 @@ country = {
 		
 		NMN = {
 			government = tribal_kingdom
-			primary_culture = aulercian
+			primary_culture = aremorican
 			religion = druidism
 			centralization=10
 
@@ -9371,7 +9373,7 @@ country = {
 		
 		ESV = {
 			government = tribal_kingdom
-			primary_culture = aremorican
+			primary_culture = aulercian
 			religion = druidism
 			centralization=10
 
@@ -9384,7 +9386,7 @@ country = {
 		
 		LXV = {
 			government = tribal_kingdom
-			primary_culture = aremorican
+			primary_culture = aulercian
 			religion = druidism
 			centralization=10
 
@@ -10708,7 +10710,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = noric
 			religion = druidism
-			centralization=10
+			centralization=75
 
 			capital = 3671
 
@@ -14237,7 +14239,7 @@ country = {
 		
 		WUS = {
 			government = despotic_monarchy
-			primary_culture = tocharian
+			primary_culture = sakan
 			religion = eastern_animism
 			
 			technology={
