@@ -17,7 +17,7 @@ deity_ares = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_ares
 	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -50,7 +50,7 @@ deity_poseidon = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_poseidon
 	passive_modifier = { global_ship_start_experience = deity_global_ship_start_experience_svalue }
 	omen = { naval_morale_modifier = omen_naval_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -85,7 +85,7 @@ deity_heracles = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_heracles
 	passive_modifier = { happiness_for_wrong_culture_modifier = deity_happiness_for_wrong_culture_modifier_svalue }
 	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -117,7 +117,7 @@ deity_apollo = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_apollo
 	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = roman_pantheon
@@ -149,7 +149,7 @@ deity_hephaestus = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_hephaestus
 	passive_modifier = { military_tech_investment = deity_military_tech_investment_svalue }
 	omen = { fort_maintenance_cost = omen_fort_maintenance_cost_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -181,7 +181,7 @@ deity_athena = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_athena
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -210,7 +210,7 @@ deity_asclepius = {
 		}
 	}
 	passive_modifier = { global_nobles_happyness = deity_global_nobles_happiness_svalue }
-	icon = deity_eloquence
+	icon = deity_asclepius
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
@@ -241,7 +241,7 @@ deity_hades = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_serapis
 	passive_modifier = { build_cost = deity_build_cost_svalue }
 	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -297,7 +297,7 @@ deity_aphrodite = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_aphrodite
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { monthly_wage_modifier = omen_monthly_wage_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -329,7 +329,7 @@ deity_pan = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_pan
 	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
 	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -358,7 +358,7 @@ deity_zeus = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_zeus
 	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -390,7 +390,7 @@ deity_tyche = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_tyche
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { mercenary_land_maintenance_cost = omen_mercenary_land_maintenance_cost_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -422,7 +422,7 @@ deity_hermes = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_hermes
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -454,7 +454,7 @@ deity_hera = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_hera
 	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = roman_pantheon
@@ -487,7 +487,7 @@ deity_artemis = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_artemis
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = roman_pantheon
@@ -519,7 +519,7 @@ deity_helios = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_apollo
 	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -549,7 +549,7 @@ deity_demeter = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_demeter
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = roman_pantheon
@@ -581,7 +581,7 @@ deity_dionysus = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_dionysus
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -613,7 +613,7 @@ deity_dioscuri = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_dioscuri
 	passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
 	omen = { naval_morale_modifier = omen_naval_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -640,7 +640,7 @@ deity_eros = {
 			has_variable = boe_unique_deity
 		}
 	}
-	icon = deity_love
+	icon = deity_eros
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = roman_pantheon
@@ -666,7 +666,7 @@ deity_persephone = {
 			has_variable = loc_unique_deity
 		}
 	}
-	icon = deity_love
+	icon = deity_persephone
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -693,7 +693,7 @@ deity_zeus_naios = {
 		}
 		has_dlc = "Epirus Flavor Pack"
 	}
-	icon = deity_eloquence
+	icon = deity_zeus
 	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -724,7 +724,7 @@ deity_zeus_stratios = {
 		has_variable = hellenistic_omens
 		tag = PON
 	}
-	icon = deity_war
+	icon = deity_zeus
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = roman_pantheon
@@ -753,7 +753,7 @@ deity_selene = {
 		has_variable = hellenistic_omens
 		tag = PON
 	}
-	icon = deity_eloquence
+	icon = deity_artemis
 	passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -795,7 +795,7 @@ deity_hermanubis ={
 			has_variable = deity_hermanubis_unlocked
 		}
 	}
-	icon = deity_wealth
+	icon = deity_hermanubis
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { global_slaves_happyness = omen_global_slaves_happiness_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -835,7 +835,7 @@ deity_serapis = {
 			has_variable = deity_serapis_unlocked
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_serapis
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
 	religion = roman_pantheon
@@ -875,7 +875,7 @@ deity_harpocrates = {
 			has_variable = deity_harpocrates_unlocked
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_harpocrates
 	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -922,7 +922,7 @@ deity_zeus_amun = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_zeus_ammon
 	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
 	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -959,7 +959,7 @@ deity_artemis_orthia = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_love
+	icon = deity_artemis
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = roman_pantheon
@@ -993,7 +993,7 @@ deity_apollo_karneios = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_eloquence
+	icon = deity_apollo
 	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1026,7 +1026,7 @@ deity_dionysos_indikos = {
 			#has_variable = dionysos_indikos_variable
 		#}
 	}
-	icon = deity_diadochi_war
+	icon = deity_dionysus
 	passive_modifier = { happiness_for_wrong_culture_group_modifier = deity_happiness_for_wrong_culture_group_modifier_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
 	religion = roman_pantheon
@@ -1059,7 +1059,7 @@ deity_helen = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_love
+	icon = deity_helen
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1093,7 +1093,7 @@ deity_hyacinthus = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_culture
+	icon = deity_hyacinthus
 	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
 	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1127,7 +1127,7 @@ deity_athena_polioukhos = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_war
+	icon = deity_athena
 	passive_modifier = { army_maintenance_cost = deity_army_maintenance_cost_svalue }
 	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1163,7 +1163,7 @@ deity_athena_promachos = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_war
+	icon = deity_athena
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1197,7 +1197,7 @@ deity_athena_ergane = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_eloquence
+	icon = deity_athena
 	passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1231,7 +1231,7 @@ deity_athena_parthenos = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_culture
+	icon = deity_athena
 	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1266,7 +1266,7 @@ deity_demeter_potnia = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_love
+	icon = deity_demeter
 	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = roman_pantheon
@@ -1302,7 +1302,7 @@ deity_athena_nikephoros = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_war
+	icon = deity_athena
 	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1337,7 +1337,7 @@ deity_apollo_didymaios = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_eloquence
+	icon = deity_apollo
 	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
 	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1373,7 +1373,7 @@ deity_arethousa = {
 		has_dlc = "Magna Graecia"
 	}
 
-	icon = deity_greek_culture
+	icon = deity_arethousa
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = roman_pantheon
@@ -1407,7 +1407,7 @@ deity_artemis_alphaea = {
 	allow_on_setup = {
 		has_dlc = "Magna Graecia"
 	}
-	icon = deity_greek_love
+	icon = deity_artemis
 	passive_modifier = { global_freemen_happyness = deity_global_freemen_happyness_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = roman_pantheon
@@ -1436,7 +1436,7 @@ deity_dione = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_dione
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { global_freemen_happyness = omen_global_freemen_output_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1465,7 +1465,7 @@ deity_apollo_aktiakos = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_apollo
 	passive_modifier = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue }
 	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1495,7 +1495,7 @@ deity_achilles = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_achilles
 	passive_modifier = { discipline = deity_discipline_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1524,7 +1524,7 @@ deity_aphrodite_euploia = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_aphrodite
 	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
 	omen = { global_commerce_modifier = deity_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1556,7 +1556,7 @@ deity_zeus_olympios = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_zeus
 	passive_modifier = { global_manpower_modifier = deity_global_manpower_modifier_svalue }
 	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1594,7 +1594,7 @@ deity_apollo_nabu = {
 			}
 		}
 	}
-	icon = deity_diadochi_economy
+	icon = deity_apollo
 	passive_modifier = { happiness_for_wrong_culture_group_modifier = deity_happiness_for_wrong_culture_group_modifier_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness }
 	religion = roman_pantheon
@@ -1631,7 +1631,7 @@ deity_zeus_belos = {
 			}
 		}
 	}
-	icon = deity_diadochi_war
+	icon = deity_zeus
 	passive_modifier = { happiness_for_wrong_culture_group_modifier = deity_happiness_for_wrong_culture_group_modifier_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
 	religion = roman_pantheon
@@ -1668,7 +1668,7 @@ deity_dionysos_kathegemon = {
 			}
 		}
 	}
-	icon = deity_diadochi_love
+	icon = deity_dionysus
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness }
 	religion = roman_pantheon
@@ -1705,7 +1705,7 @@ deity_telephos = {
 			}
 		}
 	}
-	icon = deity_diadochi_culture
+	icon = deity_telephos
 	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
 	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue }
 	religion = roman_pantheon
@@ -1737,7 +1737,7 @@ deity_leto = {
 			}
 		}
 	}
-	icon = deity_diadochi_culture
+	icon = deity_leto
 	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue }
 	religion = roman_pantheon
@@ -1769,7 +1769,7 @@ deity_hekate = {
 			}
 		}
 	}
-	icon = deity_diadochi_culture
+	icon = deity_hekate
 	passive_modifier = { religious_tech_investment = deity_religious_tech_investment_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue }
 	religion = roman_pantheon
@@ -1802,7 +1802,7 @@ deity_enyo = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_athena
 	passive_modifier = { army_maintenance_cost = deity_army_maintenance_cost_svalue }
 	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1837,7 +1837,7 @@ deity_aphrodite_areia = {
 			tag = TAR
 		}
 	}
-	icon = deity_aphrodite_areia
+	icon = deity_aphrodite
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = roman_pantheon
@@ -1869,7 +1869,7 @@ deity_hestia = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_hestia
 	passive_modifier = { stability_monthly_change = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_capacity_modifier = deity_stability_monthly_change } #Bonus from Omen
 	religion = roman_pantheon
@@ -1901,7 +1901,7 @@ deity_kronos = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_kronos
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { global_commerce_modifier = deity_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1933,7 +1933,7 @@ deity_eris = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_eris
 	passive_modifier = { land_morale_modifier = omen_land_morale_modifier_svalue }
 	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
 	religion = roman_pantheon
@@ -1961,7 +1961,7 @@ deity_artemis_tauropolos = {
 			primary_culture = greco_pontic
 		}
 	}
-	icon = deity_love
+	icon = deity_artemis
 
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue }
@@ -1989,7 +1989,7 @@ deity_hecate_iphemide = {
 			primary_culture = greco_pontic
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_hekate
 
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
@@ -2016,7 +2016,7 @@ deity_heraklean_targitaos = {
 			has_variable = deity_unlocked_heraklean_targitaos
 		}
 	}
-	icon = deity_greek_war
+	icon = deity_heracles
 
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { war_score_cost = omen_war_score_cost_svalue }
@@ -2040,7 +2040,7 @@ deity_hylaian_drakaina = {
 		}
 		has_variable = deity_unlocked_hylaian_drakaina
 	}
-	icon = deity_tribal_love
+	icon = deity_hylaian_drakaina
 
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_slaves_output = omen_global_slaves_output_svalue }

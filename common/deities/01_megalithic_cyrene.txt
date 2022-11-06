@@ -19,7 +19,7 @@ deity_lamia = { # CULTURE
 		}
 
 	}
-	icon = deity_eloquence
+	icon = deity_lamia
 	passive_modifier = { land_unit_attrition = -0.10 }
 	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue  } #Bonus from Omen
 	on_activate = {
@@ -46,7 +46,7 @@ deity_antaeus = { # War
 			tag = CYR
 		}
 	}
-	icon = deity_war
+	icon = deity_antaeus
 	passive_modifier = { discipline = deity_discipline_svalue }
 	omen = {  happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue   } #Bonus from Omen
 	on_activate = {
@@ -76,7 +76,7 @@ deity_tritonis = { #Economy
 			any_region_province = { owner = root }
 		}
 	}
-	icon = deity_wealth
+	icon = deity_tritonis
 	passive_modifier = {  civic_tech_investment = deity_civic_tech_investment_svalue  }
 	omen = {  global_ship_recruit_speed = 0.20   } #Bonus from Omen
 	on_activate = {
@@ -115,7 +115,7 @@ deity_ammon = { # CULTURE
 		}
 
 	}
-	icon = deity_eloquence
+	icon = deity_ammon
 	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue   } #Bonus from Omen
 	on_activate = {
@@ -148,7 +148,7 @@ deity_cyre = { # CULTURE
 		}
 
 	}
-	icon = deity_love
+	icon = deity_cyre
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier   } #Bonus from Omen
 	on_activate = {
